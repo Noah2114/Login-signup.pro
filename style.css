@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(OIP\ \(1\).webp) ;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    background-position: center;
+    
+    
+}
+.label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    font-size: 20px;
+    color: rgb(17, 3, 68);
+    
+}
+.login{
+    margin-top: 150px;
+    margin-left:40%;
+   
+}
+h1{
+    color: rgb(220, 190, 146);
+}
+img{
+    display: block;
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+   
+}

@@ -1,0 +1,39 @@
+*{
+    margin: opx;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(wp6264067.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover 100%;
+    background-position: center;
+    
+}
+.label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    color: bisque;
+    
+}
+.login{
+    margin-top: 150px;
+    margin-left:40%;
+}
+img{
+    display: block;
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+   
+}
+h1{
+    color: bisque;
+}
+a {
+    color: white;
+}
