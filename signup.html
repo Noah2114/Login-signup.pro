@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up-Aurax Code and Innovation Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>
+            <i class="fa-solid fa-user-plus"></i> Sign Up Page
+        </h2>
+        <p>
+            <i class="fa-solid fa-rocket"></i> Please Sign up for membership of Aurax Code and Innovation Hub
+        </p>
+        <div class="signup">
+            <form method="post" action="">
+                <label for="fname" class="line">
+                    <i class="fa-solid fa-user"></i> First-Name
+                </label>
+                <input type="text" id="fname" required name="first-name" class="line"
+                    placeholder="Enter your first name">
+
+                <label for="lname" class="line">
+                    <i class="fa-solid fa-user-group"></i> Last-Name
+                </label>
+                <input type="text" id="lname" required name="last-name" class="line" placeholder="Enter your last name">
+
+                <label for="email">
+                    <i class="fa-solid fa-envelope"></i> Email
+                </label>
+                <input type="email" id="email" name="email" required placeholder="example@email.com">
+
+                <label for="password">
+                    <i class="fa-solid fa-key"></i> Create Password
+                </label>
+                <input type="password" id="password" name="password" required placeholder="Create a strong password">
+
+                <label for="cpassword">
+                    <i class="fa-solid fa-check-double"></i> Confirm Password
+                </label>
+                <input type="password" id="cpassword" required name="Confirm password"
+                    placeholder="Confirm your password">
+
+                <fieldset class="radio-group">
+                    <p>
+                        <i class="fa-solid fa-users"></i> Role In Aurax Code and Innovation Hub
+                    </p>
+                    <div class="radio-option">
+                        <input type="radio" id="mentor" name="role">
+                        <label for="mentor" class="inline">
+                            <i class="fa-solid fa-chalkboard-user"></i> Mentorship
+                        </label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" name="role" id="student">
+                        <label for="student" class="inline">
+                            <i class="fa-solid fa-graduation-cap"></i> Student
+                        </label>
+                    </div>
+                </fieldset>
+
+                <label for="upload" class="inline" id="profile">
+                    <i class="fa-solid fa-camera"></i> Upload profile-picture
+                </label>
+                <input type="file" id="upload" name="profile-picture" class="inline">
+
+                <p>
+                    <a href="#">
+                        <i class="fa-solid fa-file-lines"></i> Read Terms and conditions of Aurax Code and Innovation
+                        Hub
+                    </a>
+                </p>
+
+                <input type="checkbox" id="agree" class="inline" name="terms and services">
+                <label for="agree" class="inline"> I accept terms and conditions
+                </label>
+
+                <button type="submit">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign Up
+                </button>
+
+                <p>
+                    <i class="fa-solid fa-question-circle"></i> If you have an account <a href="#">Login here</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
