@@ -66,6 +66,14 @@ input {
     transition: all 0.3s ease;
 }
 
+input::placeholder {
+    color: #999;
+    font-size: 0.8rem;
+    position: relative;
+    left: 10px;
+
+}
+
 input:focus {
     border-color: #667eea;
     outline: none;
